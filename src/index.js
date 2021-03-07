@@ -29,6 +29,7 @@ function get_Main_Base_Path () {
  * @param {*} configuration 
  */
 function loadMicroApp (app, configuration) {
+  
   qiankun.loadMicroApp({
     ...app,
     props: {
