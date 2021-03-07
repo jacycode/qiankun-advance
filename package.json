@@ -1,0 +1,33 @@
+{
+  "name": "qiankun-advance",
+  "version": "0.0.1",
+  "description": "An npm package used to enhance some functions of Qiankun . For example , when the main application is spa .",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacycode/qiankun-advance.git"
+  },
+  "keywords": [
+    "qiankun",
+    "spa",
+    "router"
+  ],
+  "author": "cristo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacycode/qiankun-advance/issues"
+  },
+  "homepage": "https://github.com/jacycode/qiankun-advance#readme",
+  "dependencies": {
+    "qiankun": "^2.4.0"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
